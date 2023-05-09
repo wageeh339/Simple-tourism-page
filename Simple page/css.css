@@ -1,0 +1,451 @@
+ul {
+  list-style-type: none;
+  
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-family: Agency FB;
+  font-size: 30px;
+
+}
+
+li {
+  float: left;
+  width: 150px;
+  margin-left: 180px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+li a:hover:not(.active) {
+  background-color: #cccccc;
+}
+
+.active {
+  background-color: #111;
+}
+
+.bbody
+{
+  width: 90%;
+  position: relative;
+  background-color: white;
+  height: 670px;
+  margin-left: 75px;
+  border-radius: 50px;
+
+
+}
+.bbody img
+{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+.typewriter h1 {
+  font-size: 50px;
+  position: absolute;
+  top: 10px;
+  left: 320px;
+  color: #fff;
+  font-family: OCR A;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(35, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 45% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+
+
+
+
+
+
+
+
+
+
+.fa {  
+  padding: 10px ;  
+text-align: center;  
+  margin: 5px 5px;  
+  font-size: 5px;  
+  width: 15px;
+
+  border-radius: 50%; 
+}  
+.fa-facebook {  
+  background: white;  
+  color: #4b4c4d;  
+}  
+.fa-twitter {  
+  background: white;  
+  color: #4b4c4d;  
+}  
+ 
+.fa-linkedin {  
+  background: white;  
+  color: #4b4c4d;  
+}  
+.fa-instagram {  
+  background: white;  
+  color: #4b4c4d;  
+}  
+  
+.fa-google {  
+  background: white;  
+  color: #4b4c4d;  
+}  
+
+
+.fa:hover {  
+    opacity: 0.9;  
+} 
+
+
+.icons
+{
+  
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.bbody button
+{
+  position: absolute;
+  top: 90px;
+  left: 650px;
+  width: 50px;
+  height: 50px;
+  color: white;
+  background: black;
+  border-radius: 50%;
+  transition: .5s;
+  animation-name: x;
+  animation-duration: 2.8s;
+  animation-iteration-count: infinite;
+}
+.bbody button:hover
+{
+background-color: white;
+color: black;
+}
+
+.main 
+{
+  width: 90%;
+  height: 500px;
+  background-color: white;
+  margin-left: 75px;
+  position: relative;
+  border-radius: 50px;
+
+}
+.footer
+{
+
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  border-top: 1px solid white;
+  position: relative;
+}
+
+
+
+
+
+
+.left
+{
+ width: 50%;
+ height: 500px;
+ background-color: white;
+ position: relative;
+
+}
+
+
+
+
+.right
+{
+   width: 50%;
+  height: 500px;
+  background-color: ;
+  position: absolute;
+  top: 87px;
+  right: 0px;
+}
+
+
+
+
+
+.left img
+{
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50px;
+
+}
+
+
+
+.admin
+{
+  width: 3%;
+  height: 200px;
+  margin: 5px;
+   
+  position: absolute;
+  top: 20px;
+  left: 650px;
+  align-items: center;
+  align-content: center;
+}
+.admin img
+{
+  width: 100%;
+  height: 50px;
+  border: 3px solid white;
+
+  display: block;
+  border-radius: 50%;
+  margin-top: 50px;
+  cursor: grab;
+
+}
+.admin img:hover
+{
+  border: 3px solid black;
+  opacity: 0.9;
+
+}
+
+
+
+
+
+.main55
+{
+  width: 60%;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+  height: 400px;
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  text-align: justify;
+  align-items: center;
+
+}
+
+@keyframes x
+{
+  0%   { left:650px; top:90px;}
+  25%  { top:120px; left:650px;}
+  50%  {left:650px; top:90px;}
+  75%  { left:650px; top:120px;}
+  100% {left:650px; top:90px;}
+}
+
+.tour1
+{
+  width: 90%;
+  height: 300px;
+  background-color: ;
+  margin-left: 75px;
+  margin-top: 50px;
+  transform: skew(14deg, -1deg);
+  border-radius: 70px 30px 70px 30px;
+  box-shadow: 38px 28px 10px 1px #000;
+  position: relative;
+
+
+}
+.tour1 img
+{
+  width: 40%;
+  height: 100%;
+  border-radius: 70px 30px 70px 30px;
+box-shadow: 15px 9px 10px 1px #000;
+}
+.tour1 .write
+{
+  width: 50%;
+  height: 100%;
+  background-color: ivory;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-radius: 70px 30px 70px 30px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+
+
+
+}
+.tour2
+{
+  width: 90%;
+  height: 300px;
+  background-color: ;
+  margin-left: 75px;
+  margin-top: 50px;
+  transform: skew(-14deg, -1deg);
+  border-radius: 70px 30px 70px 30px;
+  box-shadow: 38px 28px 10px 1px #000;
+  position: relative;
+
+
+}
+.tour2 img
+{
+  width: 40%;
+  height: 100%;
+  border-radius: 70px 30px 70px 30px;
+box-shadow: 15px 9px 10px 1px #000;
+}
+.tour2 .write
+{
+  width: 50%;
+  height: 100%;
+  background-color: ivory;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-radius: 70px 30px 70px 30px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+
+
+
+}
+
+.btn1:hover 
+{
+  background-color: black;
+  transform: translate(0px,-10px);
+}
+
+
+
+
+span{
+  position: relative;
+  display: inline-flex;
+  width: 180px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+span a{
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform .25s;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+span a:before,
+span a:after{
+  position: absolute;
+  content: "Discover";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+span a:before{
+  color: #fff;
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+span a:after{
+  color: #000;
+  transform: rotateX(90deg) translateZ(25px);
+}
+span a:hover{
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+
+.coa
+{
+  position: absolute;
+  top: 100px;
+  font-family: Britannic;
+  font-weight: bolder;
+
+}
+#btn1,#btn2,#btn3,#btn4
+{
+  position: absolute;
+  top: 200px;
+  left: 240px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
